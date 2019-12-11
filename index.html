@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="one">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div id="choose">
+        <h2>Choose what you want</h2>
+        <input type="radio" value="" id="table">table
+        <input type="radio" value="" id="list">list
+        <br>
+        <form action="" name="f3" class="f3">
+            Count Li
+            <input type="text" style="width: 300px; margin-left: 85px; line-height: 25px;" name="countLi" class="input">
+            <br><br>
+            Type of marks
+            <select style="width: 304px; margin-left: 50px; height: 30px;" name="typeLi" class="input">
+                <option value="circle">circle</option>
+                <option value="disc">disc</option>
+                <option value="square">square</option>
+            </select>
+            <br><br><br>
+            <input type="button" name="btnCreate" value="Create" style="width: 100px;">
+
+        </form>
+
+        <form action="" name="f4" class="f4">
+            <br>
+            Count tr
+            <input type="text" style="width: 449px; margin-left: 50px;" name="countTr" class="input">
+            <br><br>
+            Count td
+            <input type="text" style="width: 449px; margin-left: 48px;" name="countTd" class="input">
+            <br><br>
+            Width of td
+            <input type="text" style="width: 449px; margin-left: 30px;" name="widthTd" class="input">
+            <br><br>
+            Height of td
+            <input type="text" style="width: 449px; margin-left: 26px;" name="heightTd" class="input">
+            <br><br>
+            Width of border
+            <input type="text" style="width: 80px;" name="widthBd" class="input">
+            Type of border
+            <select style="width: 80px;" name="typeBd" class="input">
+                <option value="solid">solid</option>
+                <option value="double">double</option>
+                <option value="dotted">dotted</option>
+                <option value="groove">groove</option>
+            </select>
+            Color of border
+            <select style="width: 80px;" name="colorBd" class="input">
+                <option value="black">black</option>
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+            </select>
+            <br><br>
+            <input type="button" name="btnCreateTab" value="Create table" style="width: 100px;">
+
+        </form>
+    </div>
+    <div id="btns">
+        <input type="button" id="btnEdit" value="Edit"
+            style="background: yellow; border: none; border-radius: 3px; width: 50px; height: 30px; color: white;">
+        <input type="button" id="btnStyle" value="Style"
+            style="background: blue; border: none; border-radius: 3px; width: 50px; height: 30px; color: white;">
+    </div>
+
+
+    <div id="two">
+        <form action="" name="f1" class="f1">
+            <textarea name="textEditor" class="textArea"></textarea>
+            <p>
+                <input type="button" name="btnAdd" value="Add"
+                    style="margin-left: 80px; background: red; color:white; border: none; border-radius: 2px; width: 40px; height: 25px;">
+                <input type="button" name="btnSave" value="Save"
+                    style="background: green; border: none; border-radius: 2px; color: white; width: 40px; height: 25px;">
+            </p>
+        </form>
+
+        <form action="" name="f2" class="f2">
+            <p>Font size</p>
+            <input type="radio" name="fonts" value="12px">12px
+            <input type="radio" name="fonts" value="14px">14px
+            <input type="radio" name="fonts" value="16px">16px
+            <input type="radio" name="fonts" value="18px">18px
+            <input type="radio" name="fonts" value="20px">20px
+            <br>
+            <p>Font family</p>
+            <select style="width: 210px;" name="fontFam" class="input">
+                <option value="" selected disabled hidden>Choose..</option>
+                <option value="cursive">Cursive</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="monospace">Monospace</option>
+                <option value="sans-serif">Sans-serif</option>
+            </select>
+
+            <br>
+            <p>Colors</p>
+            <input type="button" value="Color of text" name="textColor">
+            <input type="button" value="Background color" name="backgColor">
+            <br>
+            <p>Style</p>
+            <input type="checkbox" name="bold" id="">Bold text
+            <input type="checkbox" name="cursive" id="">Cursive text
+
+            <div id="boxColors">
+                <div id="a" style="background-color: aqua;"></div>
+                <div id="b" style="background-color: red;"></div>
+                <div id="c" style="background-color: lime;"></div>
+                <div id="d" style="background-color: yellowgreen;"></div>
+                <div id="e" style="background-color: deeppink;;"></div>
+                <div id="f" style="background-color: orange;"></div>
+                <div id="g" style="background-color: blue;"></div>
+                <div id="h" style="background-color: violet;"></div>
+                <div id="i" style="background-color: yellow;;"></div>
+
+            </div>
+        </form>
+
+
+    </div>
+    <table style="width: 10px; height: 10px;"></table>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
